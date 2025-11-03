@@ -9,7 +9,7 @@ const rightEye = document.getElementById('two');
 // Movement limits (so pupils don't go too far)
 const PUPIL_RANGE = 30; // pixels
 
-document.addEventListener('mousemove', (e) => {
+document.addEventListener('click', (e) => {
     // Get eye positions
     const leftRect = leftEye.getBoundingClientRect();
     const rightRect = rightEye.getBoundingClientRect();
