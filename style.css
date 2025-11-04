@@ -91,5 +91,5 @@ body{
     height: 140px;
     border-bottom: 28px solid #fff;
     border-radius: 50%;
-    box-shadow: 0 8px 0 #ff4757; /* Optional: red inner mouth glow */
+    /* box-shadow: 0 8px 0 #ff4757; Optional: red inner mouth glow */
 }
